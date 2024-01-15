@@ -1,1 +1,128 @@
 /* services css  */
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+.banner_section {
+    background-color: #b2744c;
+    color: #FCF0C8;
+    padding: 50px 0; 
+}
+
+/* Styles for the carousel navigation arrows */
+.carousel-control-prev, .carousel-control-next {
+    color: #FCF0C8;
+}
+
+/* Styles for the banner text */
+.banner_taital, .tasty_text, .banner_text {
+    color: #630A10;
+}
+.poster{
+    height:500px;
+    width: 3000px;
+    box-shadow:0 0 100px #FCF0C8;
+    
+}
+
+
+
+
+
+.title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #630A10;
+    text-align: center;
+    font-size: 280%;
+    height: 50px;
+    width: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.coffee-item-card {
+    height: auto;
+    width: 300px;
+    background-color: #FCF0C8;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: whitesmoke 2px solid;
+    justify-content: space-between;
+    display: block;
+}
+
+.coffee-item-image {
+    height: 230px;
+    width: 230px;
+    border: 3px solid #FACE7F;
+    padding: auto;
+}
+
+.coffee-item-card:hover {
+    box-shadow: 0px 0px 2px 2px whitesmoke;
+    transition: 0.4s ease;
+    cursor: pointer;
+    transform: scale(1.06);
+}
+
+.coffee-item-title {
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #630A10;
+    border: 3px white;
+}
+
+.coffee-item-description {
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    color: #911F27;
+}
+
+.price {
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #b2744c;
+}
+
+.order-now-btn {
+    color: beige;
+    height: 50px;
+    width: 230px;
+    padding: auto;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b2744c;
+}
+
+.order-now-btn:hover {
+    box-shadow: 0px 0px 2px 3px white;
+    padding: auto;
+    transition: 0.6 ease;
+    background-color: #630A10;
+    color: white;
+    font-size: medium;
+}
+
+.coffee-item-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+    .coffee-item-image {
+        height: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
