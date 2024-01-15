@@ -55,3 +55,97 @@ p{
     height: 120vh;
   }
 }
+
+
+/*---navbar---*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
+.all-content{
+background: #f7f5f2;
+}
+html::-webkit-scrollbar-track{
+background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+background: #b2744c;
+border-radius: 10px;
+}
+html::-webkit-scrollbar{
+width: 10px;
+}
+/* navbar */
+#navbar{
+background-color: #b2744c;
+font-family: 'Roboto', sans-serif;
+}
+#logo img{
+border-radius: 10px;
+width: 160px;
+margin-left: 40px;
+}
+.navbar-nav{
+margin-left: 50px;
+}
+.nav-item .nav-link{
+color: black;
+margin-left: 10px;
+font-weight: bold;
+transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+background: #f7f5f2;
+border-radius: 5px;
+color: black;
+}
+#navbar form button{
+background: black;
+color: white;
+border: 1px solid white;
+}
+/* navbar */
+
+/* footer */
+#footer{
+  width: 100%;
+  background: #b2744c;
+  margin-top: 50px;
+}
+.footer-logo img{
+  width: 180px;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#footer .socail-links i{
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 30px;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.credite{
+  color: white;
+  margin-top: 20px;
+}
+.credite{
+  text-shadow: 0px 0px 1px black;
+}
+.credite a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.credite a span{
+  color: black;
+}
+.copyright span{
+  color: black;
+}
