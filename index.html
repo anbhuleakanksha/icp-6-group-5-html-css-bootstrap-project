@@ -2,10 +2,111 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>coffee Shop</title>
+    <link rel="stylesheet" href="./CSS/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+   
 </head>
+
 <body>
-    <p>hey</p>
+  <div class="all-content">
+   
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" id="logo"><img src="./images/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html"> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../icp-6-group-5-html-css-bootstrap-project/Pages/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../icp-6-group-5-html-css-bootstrap-project/Pages/product.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../icp-6-group-5-html-css-bootstrap-project/Pages/gallery.html">Gallary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../icp-6-group-5-html-css-bootstrap-project/Pages/contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../icp-6-group-5-html-css-bootstrap-project/Pages/services.html"> Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../icp-6-group-5-html-css-bootstrap-project/Pages/customerReview.html">Review</a>
+          
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../icp-6-group-5-html-css-bootstrap-project/Pages/login.html">Login</a>
+          
+        </li>
+         
+         
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+
+<!-- home section -->
+   <section id="home">
+    <div class="content">
+      <h3>Start Your Day With a <br> Fresh Coffee</h3>
+      <p>Bringing Joy One Cup at a Time
+         <br>
+      </p>
+      <button id="btn">  <a class="nav-link" href="./Pages/services.html">SHOP NOW</a></button>
+    </div>
+   </section>
+   <footer id="footer">
+    <div class="footer-logo text-center"><img src="../Images/logo.png" alt=""></div>
+    <div class="socail-links text-center">
+      <i class="fa-brands fa-twitter">
+        <a class="nav-link" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjyo86X69-DAxXxi68BHaHSDfoQjBB6BAgREAE&url=https%3A%2F%2Ftwitter.com%2Flogin&usg=AOvVaw3swNPrVfKaBGiX8TGfSpkN&opi=89978449">Twitter</a>
+      </i>
+      <i class="fa-brands fa-facebook-f">
+        <a class="nav-link" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj6h5Gp6t-DAxVEoK8BHcVeDzoQFnoECAoQAQ&url=https%3A%2F%2Fwww.facebook.com%2F&usg=AOvVaw2q27ov2cpCynr72DmuSqEz&opi=89978449">facebook</a>
+      </i>
+      <i class="fa-brands fa-instagram">
+        <a class="nav-link" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj0wajs69-DAxVflK8BHUYYDzAQFnoECAoQAQ&url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Flogin%2F%3Fhl%3Den&usg=AOvVaw22wbeKu9CbUP9Ki54NoHiP&opi=89978449">Instagram</a>
+      </i>
+      <i class="fa-brands fa-youtube">
+        <a class="nav-link" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwimuK3R69-DAxW8ha8BHfTYAcMQFnoECA0QAQ&url=https%3A%2F%2Fwww.youtube.com%2F&usg=AOvVaw0usXxGa_x5y1xoI_LaL0-1&opi=89978449">Youtube</a>
+      </i>
+     
+    </div>
+    <div class="credite text-center">
+        Designed By <a href="https://roadtocode.org/">Road To Code Students</a>
+    </div>
+    <div class="copyright text-center">
+      &copy; Copyright <strong><span>Coffee Shop</span></strong>. All Rights Reserved
+  </div>
+</footer>
+   
 </body>
+
 </html>
+<!-- home section -->
+
+
+
