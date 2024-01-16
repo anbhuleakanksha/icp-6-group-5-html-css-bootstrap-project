@@ -17,6 +17,10 @@ body {
     color: #FCF0C8;
 }
 
+.banner_section-layout_padding{
+    background-color: #945e3a;
+}
+
 /* Styles for the banner text */
 .banner_taital, .tasty_text, .banner_text {
     color: #630A10;
@@ -61,7 +65,10 @@ body {
     width: 230px;
     border: 3px solid #FACE7F;
     padding: auto;
+    display: block;
 }
+
+
 
 .coffee-item-card:hover {
     box-shadow: 0px 0px 2px 2px whitesmoke;
@@ -98,7 +105,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #b2744c;
+    background-color: #911F27;
 }
 
 .order-now-btn:hover {
@@ -118,7 +125,50 @@ body {
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 500px) {
+/* footer */
+#footer{
+    width: 100%;
+    background: #b2744c;
+    margin-top: 50px;
+  }
+  .footer-logo img{
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  #footer .socail-links i{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .credite{
+    color: white;
+    margin-top: 20px;
+  }
+  .credite{
+    text-shadow: 0px 0px 1px black;
+  }
+  .credite a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  .credite a span{
+    color: black;
+  }
+  .copyright span{
+    color: black;
+  }
+
+
+
+@media screen and (max-width: 100px) {
     .coffee-item-image {
         height: 10px;
         display: block;
