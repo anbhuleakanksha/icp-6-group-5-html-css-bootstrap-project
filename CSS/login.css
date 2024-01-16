@@ -1,1 +1,153 @@
-/* login css  */
+body {
+    background-image: url(../Images/c2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This ensures that the background image stays fixed while scrolling */
+}
+
+        /* Navbar Styles */
+        #navbar {
+            background-color: #b2744c;
+            font-family: 'Roboto', sans-serif;
+            position: relative;
+            z-index: 1000;
+        }
+
+        #logo img {
+            border-radius: 10px;
+            width: 160px;
+            margin-left: 40px;
+            z-index: 1001;
+        }
+
+        .navbar-nav {
+            margin-left: 50px;
+        }
+
+        .navbar-nav .nav-link {
+            color: black;
+            margin-left: 10px;
+            font-weight: bold;
+            transition: 0.5s;
+        }
+
+        .navbar-nav .nav-link:hover {
+            background: #f7f5f2;
+            border-radius: 5px;
+            color: black;
+        }
+
+        .navbar form button {
+            background: black;
+            color: white;
+            border: 1px solid white;
+        }
+
+        /* Login Form Styles */
+        .container {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #coffee-image {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+            border: 1px solid #ccc;
+            background-color: #f8f9fa;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            width: 45%;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        label {
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #signup-form {
+            display: none;
+        }
+
+        #no-account-message,
+        p {
+            font-weight: 600;
+        }
+        #footer{
+  width: 100%;
+  background: #b2744c;
+  margin-top: 50px;
+}
+.footer-logo img{
+  width: 180px;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#footer .socail-links i{
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 30px;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.credite{
+  color: white;
+  margin-top: 20px;
+}
+.credite{
+  text-shadow: 0px 0px 1px black;
+}
+.credite a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.credite a span{
+  color: black;
+}
+.copyright span{
+  color: black;
+}
